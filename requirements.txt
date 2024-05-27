@@ -38,6 +38,14 @@ requests
 speedtest-cli
 telegraph
 tenacity
+oauth2client
+google-api-python-client
+progress
+progressbar2
+httplib2shim
+google_auth_oauthlib
+pyrogram==2.0.77
+tgcrypto
 tgcrypto
 uvloop
 xattr
