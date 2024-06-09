@@ -3,4 +3,5 @@ build:
     worker: Dockerfile
 
 run:
-  worker: venv/bin/python3 -m bot
+  worker: python3 -m bot
+  web: python3 -m bot
