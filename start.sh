@@ -1,1 +1,1 @@
-pip3 install -r requirements.txt && pip3 install -r requirements-cli.txt && python3 update.py && python3 -m bot
+venv/bin/python3 update.py && venv/bin/python3 -m bot
