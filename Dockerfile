@@ -4,8 +4,9 @@ WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
 COPY requirements.txt .
+RUN apt install python3.10-venv
 RUN python3 -m venv venv
-RUN venv/bin/pip install -U -r requirements.txt
+RUN venv/bin/pip3 install -U -r requirements.txt
 
 COPY . .
 
